@@ -7,7 +7,7 @@ Files: `index.html` (landing), `privacy.html`, `support.html`, `styles.css`.
 
 ## Before publishing — replace these placeholders
 
-1. **Support email** — currently `support@pawse.app` (a placeholder). Replace it in:
+1. **Support email** — currently `pawse.support@gmail.com` (a placeholder). Replace it in:
    - `privacy.html`, `support.html` (both `mailto:` links + visible text)
    - `src/constants/links.ts` in the app (`SUPPORT_EMAIL`)
 2. **`[DATE]`** in `privacy.html` → the date you publish (e.g. `June 4, 2026`).
@@ -20,6 +20,7 @@ Files: `index.html` (landing), `privacy.html`, `support.html`, `styles.css`.
 GitHub Pages serves **public** repos for free. Easiest setup:
 
 **Option A — dedicated site repo (simplest):**
+
 1. Create a new public repo, e.g. `pawse-site`.
 2. Copy the contents of this `website/` folder to the repo root.
 3. Repo **Settings -> Pages -> Source: Deploy from a branch -> `main` / root**.
@@ -28,6 +29,7 @@ GitHub Pages serves **public** repos for free. Easiest setup:
    - `https://<your-username>.github.io/pawse-site/support.html`
 
 **Option B — serve from this app repo:**
+
 1. Move these files into a top-level `docs/` folder in a **public** repo.
 2. Settings -> Pages -> Source: `main` / `docs`.
    (Note: Pages is free only on public repos; private repos need a paid plan.)
